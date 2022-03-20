@@ -1,0 +1,49 @@
+@charcet-utf-8;
+
+
+
+@media screen and (max-width: 500px){
+   
+    header{
+        min-height: 60vw;
+    }
+
+   header > h1{
+       font-size: 11vw;
+       padding-top: 16vw;
+   }
+
+    main section.normal p{
+        font-size: 7vw;
+        font-weight: normal;
+        line-height: 14vw;
+    }
+
+    main section.imagem{
+        height: 70vw;
+    }
+
+    main section#imagem1 p{
+        min-height: 80%;
+        line-height: 8vw;
+        font-size: 130%;
+    }
+
+    main section#imagem2 p{
+        min-height: 80%;
+        line-height: 8vw;
+        font-size: 130%;
+    }
+
+    main section#imagem2{
+        background-position: right center;
+        background-size: cover;
+    }
+
+    footer{
+        padding: 5%;
+    }
+}
+
+
+
